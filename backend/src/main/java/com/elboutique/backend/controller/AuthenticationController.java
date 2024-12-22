@@ -4,9 +4,9 @@ package com.elboutique.backend.controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.elboutique.backend.dto.request.LoginRequest;
-import com.elboutique.backend.dto.request.RegisterRequest;
-import com.elboutique.backend.dto.response.AuthenticationResponse;
+import com.elboutique.backend.DTO.request.LoginRequest;
+import com.elboutique.backend.DTO.request.RegisterRequest;
+import com.elboutique.backend.DTO.response.AuthenticationResponse;
 import com.elboutique.backend.service.AuthenticationService;
 
 import lombok.RequiredArgsConstructor;

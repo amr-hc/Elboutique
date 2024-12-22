@@ -5,10 +5,10 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import com.elboutique.backend.DTO.request.LoginRequest;
+import com.elboutique.backend.DTO.request.RegisterRequest;
+import com.elboutique.backend.DTO.response.AuthenticationResponse;
 import com.elboutique.backend.config.JwtService;
-import com.elboutique.backend.dto.request.LoginRequest;
-import com.elboutique.backend.dto.request.RegisterRequest;
-import com.elboutique.backend.dto.response.AuthenticationResponse;
 import com.elboutique.backend.model.Customer;
 import com.elboutique.backend.repository.CustomerRepository;
 

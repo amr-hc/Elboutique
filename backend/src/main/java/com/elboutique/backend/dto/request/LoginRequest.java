@@ -1,4 +1,4 @@
-package com.elboutique.backend.dto.request;
+package com.elboutique.backend.DTO.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
