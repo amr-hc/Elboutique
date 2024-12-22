@@ -1,5 +1,7 @@
 package com.elboutique.backend.DTO.request;
 
+import java.util.List;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,4 +16,6 @@ public class RegisterRequest {
     private String lastname;
     private String email;
     private String password;
+    private String phoneNumber;
+    private List<AddressRequest> addresses;
 }

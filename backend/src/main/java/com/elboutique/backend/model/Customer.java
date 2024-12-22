@@ -37,6 +37,9 @@ public class Customer extends BaseUser {
     @OneToMany(mappedBy = "customer")
     private Set<Phone> phones;
 
+    @OneToMany(mappedBy = "customer")
+    private Set<CustomerAddress> addresses;
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return List.of(new SimpleGrantedAuthority(this.getClass().getSimpleName()));
